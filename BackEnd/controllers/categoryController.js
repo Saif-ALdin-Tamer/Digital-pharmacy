@@ -72,7 +72,7 @@ export const createdCategory = async ( req, res ) => {
 
 export const updateCategory = async (req, res) => {
     try {
-        const category = await Category.findById( req.params.id ) ;
+        const category = await Category.findByIdAndUpdate( req.params.id ) ;
         if (!category ) {
             return res.status(404).json({
                 success: false , 

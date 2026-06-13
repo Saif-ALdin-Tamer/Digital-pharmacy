@@ -12,7 +12,7 @@ const supplierSchema = new mongoose.Schema(
             unique: true ,
             required: true 
         } ,
-        addresOfSupplierCompany: {
+        addressOfSupplierCompany: {
             required: true ,
         } ,
         password: {
