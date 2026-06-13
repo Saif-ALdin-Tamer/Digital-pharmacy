@@ -122,3 +122,69 @@ This project follows clean code practices throughout:
 | `/category/:slug` | Category | Product listing with search & pagination |
 | `/login` | Sign In | User authentication |
 | `/signup` | Sign Up | New user registration |
+
+### Category Slugs
+`drugs` · `baby-care` · `skin-care` · `women-care` · `brands` · `fitness-nutrition` · `makeup-accessories`
+
+---
+
+## 🧩 Component Library
+
+| Component | Props | Description |
+|-----------|-------|-------------|
+| `Header` | — | Sticky navbar with logo, search, auth links |
+| `Footer` | — | 4-column footer with contact info & socials |
+| `ProductCard` | `product` | Product display card with image placeholder |
+| `CategoryIcon` | `category`, `isActive` | Circular category icon with link |
+| `FeatureCard` | `feature` | Feature highlight card with icon |
+| `Pagination` | `currentPage`, `totalPages`, `onPageChange` | Page navigation |
+| `SearchBar` | `placeholder`, `value`, `onChange`, `itemCount` | Search input with icon |
+
+---
+
+## 🛣️ Roadmap
+
+- [x] Frontend — Home page with all sections
+- [x] Frontend — Category/Products page with pagination & search
+- [x] Frontend — Login & Sign Up pages
+- [x] Frontend — Responsive design
+- [x] Frontend — Design system with CSS variables
+- [ ] Backend — Express server setup with MVC structure
+- [ ] Backend — MongoDB models (User, Product, Category, Order)
+- [ ] Backend — JWT authentication with bcrypt
+- [ ] Backend — RESTful API endpoints
+- [ ] Backend — Input validation & error handling
+- [ ] Backend — Role-based access control (RBAC)
+- [ ] Integration — Connect frontend to API
+- [ ] Feature — Shopping cart functionality
+- [ ] Feature — Order management system
+- [ ] Feature — Product detail page
+- [ ] Feature — Admin dashboard
+- [ ] Feature — Arabic (RTL) language support
+- [ ] Deployment — Docker containerization
+- [ ] Deployment — CI/CD pipeline
+
+---
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+---
+
+## 📝 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 📞 Contact
+
+**Digital Pharmacy**
+- 📧 support@digitalpharmacy.eg
+- 📱 +20 2 2345 6789
+- 📍 26 July St, Downtown, Cairo, Egypt
